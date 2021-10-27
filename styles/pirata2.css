@@ -4,11 +4,14 @@
 }
 body {
   background-image: url("../images/Fondo2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   margin: 0;
   padding: 20px;
 }
 #container {
-  background-size: cover;
   font-size: 16px;
   text-align: center;
   background-color: rgba(255 , 255 , 255 , 0.95);
@@ -20,7 +23,8 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1) ;
   min-width: 350px;
 }
-p {
+#poema {
   font-family: 'LetraBonita';
   font-size: 25px;
+  width: 350px;
 }
